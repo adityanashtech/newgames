@@ -120,7 +120,7 @@ const openJsGame = async (game_uid: string, element: HTMLButtonElement) => {
       member_account: memberAccount,
       game_uid: game_uid,
       timestamp: Date.now(),
-      credit_amount: afterAmount.toString(),
+      credit_amount: "5000",
       currency_code: "BRL",
       language: "en",
       platform: "2",
