@@ -37,7 +37,7 @@ const openJsGame = async (game_uid: string, element: HTMLButtonElement) => {
   console.log(`Game UID: ${game_uid}`);
   console.log(`Button element:`, element);
 
-  const memberAccount = "h7bfd41234567890thala";
+  const memberAccount = "h43929thala";
   const transferId = `${memberAccount}_${generateRandom10Digits()}`;
   const timestamp = Date.now();
 
